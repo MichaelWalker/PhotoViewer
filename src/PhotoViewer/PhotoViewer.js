@@ -2,7 +2,7 @@
 import * as styles from "./PhotoViewer.module.scss";
 
 export const PhotoViewer = ({imageUrl}) => (
-    <section>
-        <img src={imageUrl} alt="The selected photo"/>
+    <section className={styles.section}>
+        <img className={styles.image} src={imageUrl} alt=""/>
     </section>
 );
